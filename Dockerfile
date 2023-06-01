@@ -1,5 +1,5 @@
 #FROM quay.io/ansible/creator-ee
-FROM quay.io/acme_corp/ansible-runner-arm
+FROM quay.io/acme_corp/ansible-runner
 
 ENV HOME /home/runner
 
