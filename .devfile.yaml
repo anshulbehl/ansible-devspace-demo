@@ -8,7 +8,7 @@ components:
       #image: quay.io/acme_corp/creator-ee-test:latest
       image: quay.io/podman/stable
       memoryRequest: 256M
-      memoryLimit: 6Gi
+      memoryLimit: 2Gi
       cpuRequest: 250m
       cpuLimit: 2000m
       args: ['tail', '-f', '/dev/null']
