@@ -12,8 +12,6 @@ components:
       cpuRequest: 250m
       cpuLimit: 2000m
       args: ['tail', '-f', '/dev/null']
-      securityContext:
-        privileged: true
 #commands:
 #  - id: oc-install
 #    exec:
